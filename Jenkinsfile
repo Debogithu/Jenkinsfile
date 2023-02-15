@@ -1,9 +1,9 @@
 pipeline {
   agent any
-  #environment {
+  /*environment {
    # NEW_VERSION = '1.3.0'
     #SERVER_CREDENTIALS = credentials('server-credentials')
-  #}
+  }*/
   parameters {
     choice(name: 'VERSION', choices: ['1.1.0', '1.2.0'], description: '')
   }
