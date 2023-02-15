@@ -27,7 +27,7 @@ pipeline {
     stage("deploy"){
       steps {
         echo 'deploying the application'
-        echo "deploying with ${SERVER_CREDENTIALS}"
+        /*echo "deploying with ${SERVER_CREDENTIALS}"*/
         echo "deploying version ${params.VERSION}"
         }
         }      
